@@ -1,0 +1,11 @@
+[64kseqreads]
+rw=read
+directory=/home/sanjeevkumar761/testvol
+direct=1
+ioengine=libaio
+bs=64k
+numjobs=4
+iodepth=128
+size=4G
+runtime=600
+group_reporting
